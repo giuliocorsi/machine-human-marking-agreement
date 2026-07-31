@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.venv/
+
+
+# Data (sensitive - not shared)
+data/
+*/data/
+combined_results.json
+
+# Database
+*.db
+
+# Evaluation outputs (regeneratable)
+evaluation/*.json
+
+# LaTeX artefacts
+*.synctex.gz
+*.aux
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Deprecated
+deprecated/
+
+# Analysis outputs (regeneratable from the database)
+analysis/*/output/
+
+# Paper materials, shared separately
+paper/
+
+

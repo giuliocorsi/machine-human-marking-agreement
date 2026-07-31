@@ -1,0 +1,242 @@
+{
+  "version": 2,
+  "calibration_table": "calibration_scores",
+  "component_definitions": {
+    "A": {
+      "name": "Criterion specificity",
+      "A1": "none - no rubric provided; relies entirely on the model's implicit standards",
+      "A2": "summary - condensed grade boundaries with criteria names",
+      "A3": "full - complete marking criteria with detailed performance descriptors per band"
+    },
+    "B": {
+      "name": "Calibration intervention",
+      "B1": "none - no calibration information",
+      "B2": "distributional - expected grade distribution as pure base-rate information",
+      "B3": "distributional + debiasing - expected distribution plus explicit debiasing instruction"
+    },
+    "C": {
+      "name": "Scoring strategy",
+      "C1": "direct - assign a single overall score with no structured reasoning instruction",
+      "C2": "analytic - evaluate each institutional criterion independently then synthesise a final score",
+      "C3": "deliberative - identify overall grade band through reasoned deliberation then assign a specific score"
+    }
+  },
+  "institutions": {
+    "mmu": {
+      "name": "Manchester Metropolitan University",
+      "subject": "Psychology",
+      "grade_terminology": {
+        "first": "First",
+        "upper_second": "2:1",
+        "lower_second": "2:2",
+        "third": "Third",
+        "fail": "Fail"
+      },
+      "criteria_list": "Introduction, Method, Analysis (Accuracy), Analysis (Interpretation), Presentation, Referencing, Abstract",
+      "summary_rubric": "GRADE BOUNDARIES:\n85-100%: Exceptional (creative, novel, publishable quality)\n72-80%: Excellent (very clear, sophisticated, convincing)\n62-68%: Good (clear, well-developed, minor gaps)\n52-58%: Satisfactory (mostly clear, adequate, some arguments lack development)\n42-48%: Poor (unclear, under-developed, hard to follow)\n22-38%: Very poor (confused, insufficient, inappropriate)\n2-18%: Minimal (absent or lacking)\n0%: No work submitted\n\nAssessed across 7 criteria: Introduction, Method, Analysis (Accuracy), Analysis (Interpretation), Presentation, Referencing, Abstract.",
+      "full_rubric": "MARKING CRITERIA:\n\nINTRODUCTION\n85-100%: Research question extremely clear and well-developed. Insightful links to psychological theory and/or previous literature which provide an exceptionally strong justification for the research. Research question creative or novel.\n72-80%: Research question very clear and well-developed. Sophisticated links to psychological theory and/or previous literature which provide a convincing justification for the research.\n62-68%: Research question clear. Clear links to psychological theory and/or previous literature which provide good justification for the research.\n52-58%: Research question are mostly clear. Some links to psychological theory and/or previous literature which provide adequate justification for the research. Some arguments may lack development.\n42-48%: Research questions are unclear and under-developed. Limited links to psychological theory and/or previous literature which provide inadequate justification for the research. Arguments lack development and may be hard to follow.\n22-38%: Research question very unclear, under-developed or confused. Insufficient links to psychological theory and/or previous literature which provide a poor justification for the research. Arguments lack development, are hard to follow, and may be inappropriate.\n2-18%: Research question absent. Links to psychological theory and/or previous literature are lacking, and so there is no justification for the research presented.\n0%: No work submitted.\n\nMETHOD\n85-100%: Methodology chosen to address research question fully developed and appropriate. The justification of the methodology makes excellent links to relevant literature, and shows attention to ethical considerations. All required elements of methodology are described very appropriately. Methodology is applied in novel and creative ways.\n72-80%: Methodology chosen to address research question fully developed and appropriate. The justification of the methodology makes very good links to relevant literature, and shows attention to ethical considerations. All required elements of methodology are described appropriately.\n62-68%: Methodology chosen to address research questions is developed and appropriate. Most of the key elements of the methodology are described, with some minor details missing. The justification of the methodology makes reference to relevant literature, with some attention to ethical issues.\n52-58%: Methodology chosen to address research question is appropriate. Elements of the methodology are described. Too much or too little detail may be provided. The justification of the methodology is descriptive and/or makes satisfactory links to literature. Some attention to ethical considerations, but may not be developed.\n42-48%: Methodology chosen to address research questions is inadequate. Aspects of the method may be under-developed and/or incomplete. Irrelevant details may be provided. The justification of the methodology is unclear with limited links to literature. Ethical considerations may be superficial or limited.\n22-38%: Methodology chosen to research questions is inappropriate and/or wrong. Method is under-developed and/or incomplete, and hard to follow. Insufficient detail may be provided. The justification of the methodology is limited or absent. Ethical considerations may be limited or missing.\n2-18%: Methodology chosen to address research questions is inappropriate and/or wrong. Method is under-developed and/or incomplete, and very hard to follow. Details are lacking or absent. No justification of the methodology is provided. No ethical considerations described.\n0%: No work submitted.\n\nANALYSIS - ACCURACY\n85-100%: Thematic analysis used very effectively to analyse data, demonstrating an excellent understanding thereof. Analysis reports on extremely coherent themes, using supporting quotes very effectively.\n72-80%: Thematic analysis used effectively to analyse data, demonstrating a confident understanding thereof. Analysis reports on very coherent themes, using quotes effectively.\n62-68%: Thematic analysis generally used effectively to analyse data, demonstrating a clear understanding thereof. Analysis reports very coherent themes, using supporting quotes generally effectively. Some minor details may be missing.\n52-58%: Thematic analysis used adequately to analyse the data, demonstrating a sufficient understanding thereof. Some details of themes may lack coherence, with use of quotes only partially effective.\n42-48%: Thematic analysis used inadequately, demonstrating a poor understanding thereof. Themes are partially reported, with some major errors, and/or quotes poorly reported or missing.\n22-38%: Thematic analysis used inadequately, demonstrating little or no understanding thereof. Themes are poorly reported, with major errors, and/or quotes poorly reported or missing.\n2-18%: Very limited attempts to use thematic analysis, demonstrating an incorrect understanding thereof. Themes absent or incoherently reported. Major errors and/or omissions.\n0%: No work submitted.\n\nANALYSIS - INTERPRETATION\n85-100%: Results are interpreted and synthesised excellently with reference to relevant psychological literature. Excellent conclusion put forward. Future research suggestions excellently made by suggesting alternative methodological strategies and their advantages.\n72-80%: Results are interpreted and synthesised meticulously with reference to relevant psychological literature. Convincing conclusion made. Future research suggestions very well made by suggesting alternative methodological strategies and their advantages.\n62-68%: Results are interpreted mostly clearly with reference to relevant psychological literature. Conclusion put forward which is appropriate. Future research suggestions well made by suggesting alternative methodological strategies and their advantages.\n52-58%: Results are interpreted with some references to relevant psychological literature. Conclusion lacks development. Future research suggestions adequately made by suggesting alternative methodological strategies and their advantages.\n42-48%: Results are interpreted with limited references to relevant psychological literature. Conclusion unclear. Future research suggestions inadequately made by suggesting alternative methodological strategies and their advantages.\n22-38%: Results are partially interpreted, and/or references to relevant psychological literature are incorrect or missing. Conclusion absent or incoherent. Future research suggestions absent or undeveloped.\n2-18%: Results are partially or not interpreted. No meaningful attempt to integrate the findings with relevant psychological literature absent. Conclusion lacking. Future research suggestions lacking.\n0%: No work submitted.\n\nPRESENTATION\n85-100%: Work is presented excellently and excellently organised.\n72-80%: Work is very well presented and organised.\n62-68%: Work is coherently presented and organised. Very few errors in presentation.\n52-58%: Some errors in presentation or organisation of information, although these do not detract from overall meaning.\n42-48%: Errors in presentation and the organisation of information make the work difficult to comprehend.\n22-38%: Work is unstructured and incoherent.\n2-18%: Incomplete work.\n0%: No work submitted.\n\nREFERENCING\n85-100%: No errors in the presentation of references.\n72-80%: All in-text references and the reference list are correctly formatted.\n62-68%: A small number of minor errors in the format of in-text references and/or the reference list.\n52-58%: Some errors and omissions in references. References may be in the wrong format.\n42-48%: References are incomplete and/or incorrectly formatted.\n22-38%: References are incomplete and/or incorrectly formatted, containing many errors.\n2-18%: References are absent or minimal.\n0%: No work submitted.\n\nABSTRACT\n85-100%: No errors. Brief background, research question, methods and themes excellently stated.\n72-80%: Very good abstract. Brief background, research question, methods and themes very well stated.\n62-68%: Good abstract. Brief background, research question, methods and themes well stated.\n52-58%: Adequate abstract. Brief background, research question, methods and themes adequately stated.\n42-48%: Inadequate abstract. Brief background, research question, methods and themes inadequate.\n22-38%: Brief background, research question, methods and themes very inadequately stated.\n2-18%: Brief background, research question, methods and themes absent or minimal.\n0%: No work submitted.",
+      "distribution": "GRADE DISTRIBUTION: In a reference sample of previously marked submissions from this course, approximately 28% received Firsts (70+), 35% received 2:1s (60-69), 25% received 2:2s (50-59), 10% received Thirds (40-49), and 2% received Fails (below 40)."
+    },
+    "nottingham": {
+      "name": "University of Nottingham",
+      "subject": "Psychology",
+      "grade_terminology": {
+        "first": "First",
+        "upper_second": "2:1",
+        "lower_second": "2:2",
+        "third": "Third",
+        "fail": "Fail"
+      },
+      "criteria_list": "Knowledge & Understanding - Evidence (25%), Knowledge & Understanding - Accuracy (25%), Critical Thinking - Purpose (25%), Style & Structure - Organisation (10%), Style & Structure - Language (10%), Style & Structure - References (5%)",
+      "summary_rubric": "GRADE BOUNDARIES:\nExceptional (100): Publishable quality, sophisticated use of evidence, excellent accuracy and critical focus\nExcellent (78): Very clear, accurate, well-structured, wide range of sources, logical focus\nGood (65): Clear and accurate, some wider reading, mostly focused, well organised\nSatisfactory (55): Mostly accurate, limited evidence beyond class material, some lack of focus or clarity\nPoor (45): Inaccurate, minimal evidence, does not address question, poorly structured\nFail (35): Major inaccuracies, no evidence, no focus, incoherent\nFail (0): No work submitted\n\nAssessed across 6 weighted criteria: Knowledge & Understanding - Evidence (25%), Knowledge & Understanding - Accuracy (25%), Critical Thinking - Purpose (25%), Style & Structure - Organisation (10%), Style & Structure - Language (10%), Style & Structure - References (5%).",
+      "full_rubric": "MARKING CRITERIA:\n\nKNOWLEDGE & UNDERSTANDING (25%) - Use of Evidence\nEXCEPTIONAL (100): Appropriate evidence is used throughout to support claims. Evidence used may be from wider reading. Evidence is used in a sophisticated way, similar to that seen in published work.\nEXCELLENT (78): Appropriate evidence is used throughout to support claims. Evidence used may be from wider reading and may include a wide range of sources.\nGOOD (65): Appropriate evidence is used to support claims. There should be some signs of some reading beyond the basic material.\nSATISFACTORY (55): Some claims may have been made without any support from evidence. Evidence used is relevant, but does not go much beyond material presented in the class. Or wider reading is incorporated but it is not relevant.\nPOOR (45): Minimal evidence used to support claims that are made. This is somewhat relevant, but is limited to material presented in the class.\nFAIL (35): No evidence used to support claims that are made. The literature cited is either not relevant to the topic or is reviewed far too briefly.\nFAIL (0): No work submitted.\n\nKNOWLEDGE & UNDERSTANDING (25%) - Accuracy of Information\nEXCEPTIONAL (100): Information presented is accurate. Both basic and advanced concepts are described and explained exceptionally clearly.\nEXCELLENT (78): Information presented is accurate. Both basic and advanced concepts are described and explained very clearly.\nGOOD (65): Information presented is accurate. Basic and advanced concepts are described and explained.\nSATISFACTORY (55): Information presented is mostly accurate. Basic concepts are outlined, but this is largely descriptive with limited or unconvincing explanation.\nPOOR (45): Information presented is inaccurate. Basic concepts are described but may include some inaccuracies or lack of clarity.\nFAIL (35): Information presented is inaccurate. Description of basic concepts is either missing or contains many inaccuracies.\nFAIL (0): No work submitted.\n\nCRITICAL THINKING (25%) - Purpose\nEXCEPTIONAL (100): A logical and very clear focus on the question throughout. The piece is useful to the intended audience - and would achieve the stated purpose of the work. Is of publishable standard.\nEXCELLENT (78): A logical and very clear focus on the question throughout. The piece is useful to the intended audience - and would achieve the stated purpose of the work.\nGOOD (65): There is a focus on the question, but this may be clearer in some areas than others. The piece is useful to the intended audience - and would mostly achieve the stated purpose of the work.\nSATISFACTORY (55): May be a lack of focus on the question or may be unconvincing or lacking in clarity in some areas. The piece is somewhat useful to the intended audience and would partly achieve the stated purpose of the work.\nPOOR (45): The piece does not directly address the question, and/or is of limited usefulness to the intended audience and unlikely to achieve the stated purpose of the work.\nFAIL (35): No attempt to answer the question. The piece is not useful to the intended audience and would not achieve the stated purpose of the work.\nFAIL (0): No work submitted.\n\nSTYLE & STRUCTURE (10%) - Organisation\nEXCEPTIONAL (100): All sentences are well structured. The flow within paragraphs and across the entire piece is logical and exceeds expectations (i.e., of publishable quality).\nEXCELLENT (78): All sentences are well structured. There is logical flow within paragraphs and across the entire piece.\nGOOD (65): The majority of sentences are structured well. There is a flow of information within paragraphs and across the piece.\nSATISFACTORY (55): Few sentences are structured well. The flow of information across sentences and paragraphs may be lacking in areas and the text may feel disjointed or difficult to follow.\nPOOR (45): There is a lack of logical structure to sentences and paragraphs, and little apparent flow of information across the piece.\nFAIL (35): Sentences and paragraphs are very poorly structured, with no discernible flow of information.\nFAIL (0): No work submitted.\n\nSTYLE & STRUCTURE (10%) - Use of Language/Style\nEXCEPTIONAL (100): The style and use of language is appropriate for a non-scientific audience. The writing is of publishable quality.\nEXCELLENT (78): The style and use of language is appropriate for a non-scientific audience. The piece is well-written throughout.\nGOOD (65): The style and use of language is appropriate for a non-scientific audience but may have minor exceptions where language is too complex or unclear.\nSATISFACTORY (55): The style and use of language is somewhat appropriate for a non-scientific audience but may, in parts, be inappropriate where language is too complex or unclear.\nPOOR (45): The style and use of language is mostly inappropriate for a non-scientific audience.\nFAIL (35): The style and use of language is inappropriate for a non-scientific audience.\nFAIL (0): No work submitted.\n\nSTYLE & STRUCTURE (5%) - References\nEXCEPTIONAL (100): The references section fully matches all citations referred to in the text. A publishable style (e.g., APA) has been applied with no errors in formatting.\nEXCELLENT (78): The references section fully matches all citations referred to in the text. A publishable style (e.g., APA) has been applied with minimal errors in formatting.\nGOOD (65): The references section matches citations referred to in the text. A publishable style (e.g., APA) has been applied, but possibly with occasional errors.\nSATISFACTORY (55): The references section partially matches citations referred to in the text, but with some inconsistencies or omissions. An attempt has been made to apply a publishable style (e.g., APA), but with frequent errors.\nPOOR (45): The references section fails to match citations referred to in the text. A publishable style (e.g., APA) has been applied poorly or not at all.\nFAIL (35): The references section may be missing or highly inconsistent with citations referred to in the text. There is no evidence that a publishable style (e.g., APA) formatting has been applied.\nFAIL (0): No work submitted.",
+      "distribution": "GRADE DISTRIBUTION: In a reference sample of previously marked submissions from this course, approximately 9% received Firsts (70+), 50% received 2:1s (60-69), 38% received 2:2s (50-59), and 3% received Thirds (40-49); no submissions in the sample received Fails (below 40)."
+    },
+    "cambridge": {
+      "name": "Cambridge University",
+      "subject": "Psychology and Behavioural Sciences",
+      "grade_terminology": {
+        "first": "First",
+        "upper_second": "Upper Second",
+        "lower_second": "Lower Second",
+        "third": "Third",
+        "fail": "Fail"
+      },
+      "criteria_list": "Range and command of material, Argument and analysis, Understanding of the subject, Engagement with the question, Originality and critical treatment of evidence, Use of sources, Planning and completeness",
+      "summary_rubric": "GRADE BOUNDARIES:\n70-100: First (excellent range and command of material, original critical analysis)\n60-69: Upper Second (good knowledge, organised, clearly argued)\n50-59: Lower Second (reasonable competence, may have gaps)\n40-49: Third (basic knowledge only, serious deficiencies)\n0-39: Fail (irrelevant, ignorant, or superficial)\n\nAssessed across 7 criteria: Range and command of material, Argument and analysis, Understanding of the subject, Engagement with the question, Originality and critical treatment of evidence, Use of sources, Planning and completeness.",
+      "full_rubric": "MARKING CRITERIA:\n\nFirst (70-100): Work which is excellent both in the range and command of the material covered and the argument and analysis. Work that is excellent in its understanding of the subject; has engaged closely with the question; has shown some originality and treated the evidence critically; closely applies relevant material from an appropriate range of sources; and is well-planned and complete. An upper first (80+) meets all or virtually all criteria. A low first (70-74) meets at least some.\n\nUpper Second (60-69): Work that shows good broad-based knowledge and understanding of the topic and the lecture material; good application of relevant material; presented in an organised way; clearly argued and focused on the set question. Top of class (67-69) includes relevant content beyond taught material and attempts critical synthesis. Lower end (60-63) is competent and accurate but stays close to lecture material.\n\nLower Second (50-59): Work that overall shows reasonable competence in understanding and presentation of relevant material. Top end (57-59) shows competent understanding or reasonable organisation. Lower end (50-53) shows gaps in understanding, poor organisation, or serious omissions.\n\nThird (40-49): Upper end shows only competent knowledge of basic core material. Lower end shows some knowledge but with serious deficiencies in understanding, coverage, and organisation. Includes work that is unduly brief or largely misses the point.\n\nFail (0-39): Work that is irrelevant, shows considerable ignorance, or is short and superficial.",
+      "distribution": "GRADE DISTRIBUTION: In a reference sample of previously marked submissions from this course, approximately 30% received Firsts (70+), 63% received Upper Seconds (60-69), and 7% received Lower Seconds (50-59); no submissions in the sample received Thirds (40-49) or Fails (below 40)."
+    }
+  },
+  "components": {
+    "base": "You are an experienced {{INSTITUTION}} examiner marking undergraduate {{SUBJECT}} submissions.",
+    "task": "Mark the submission below on the institution's 0-100 scale.",
+    "debiasing": "IMPORTANT: Large language models used as markers tend to exhibit central tendency bias - compressing scores into a narrow mid-range and underusing the extremes of the scale. Be aware of this tendency in your own judgement. Use the full range of the marking scale where the evidence warrants it.",
+    "analytic": "Evaluate the submission separately on each of the institution's assessment criteria: {{CRITERIA_LIST}}. Form a judgement for each criterion, then synthesise these judgements into a single overall mark. Carry out this evaluation internally - do not include it in your output.",
+    "deliberative": "Before assigning a mark, deliberate: (1) identify which grade band ({{GRADE_BANDS}}) best characterises this submission's overall quality, (2) weigh the strongest evidence for and against that classification, (3) determine the specific mark within that band. Carry out this evaluation internally - do not include it in your output."
+  },
+  "prompt_templates": [
+    {
+      "id": "A1_B1_C1",
+      "name": "minimal_baseline",
+      "description": "No rubric, no calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}"
+    },
+    {
+      "id": "A1_B1_C2",
+      "name": "minimal_analytic",
+      "description": "No rubric, no calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A1_B1_C3",
+      "name": "minimal_deliberative",
+      "description": "No rubric, no calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A1_B2_C1",
+      "name": "minimal_distributional_baseline",
+      "description": "No rubric, distributional calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{DISTRIBUTION}}"
+    },
+    {
+      "id": "A1_B2_C2",
+      "name": "minimal_distributional_analytic",
+      "description": "No rubric, distributional calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{DISTRIBUTION}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A1_B2_C3",
+      "name": "minimal_distributional_deliberative",
+      "description": "No rubric, distributional calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{DISTRIBUTION}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A1_B3_C1",
+      "name": "minimal_full_calibration_baseline",
+      "description": "No rubric, distributional + debiasing calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}"
+    },
+    {
+      "id": "A1_B3_C2",
+      "name": "minimal_full_calibration_analytic",
+      "description": "No rubric, distributional + debiasing calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A1_B3_C3",
+      "name": "minimal_full_calibration_deliberative",
+      "description": "No rubric, distributional + debiasing calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A2_B1_C1",
+      "name": "summary_baseline",
+      "description": "Summary rubric, no calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}"
+    },
+    {
+      "id": "A2_B1_C2",
+      "name": "summary_analytic",
+      "description": "Summary rubric, no calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A2_B1_C3",
+      "name": "summary_deliberative",
+      "description": "Summary rubric, no calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A2_B2_C1",
+      "name": "summary_distributional_baseline",
+      "description": "Summary rubric, distributional calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{DISTRIBUTION}}"
+    },
+    {
+      "id": "A2_B2_C2",
+      "name": "summary_distributional_analytic",
+      "description": "Summary rubric, distributional calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A2_B2_C3",
+      "name": "summary_distributional_deliberative",
+      "description": "Summary rubric, distributional calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A2_B3_C1",
+      "name": "summary_full_calibration_baseline",
+      "description": "Summary rubric, distributional + debiasing calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}"
+    },
+    {
+      "id": "A2_B3_C2",
+      "name": "summary_full_calibration_analytic",
+      "description": "Summary rubric, distributional + debiasing calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A2_B3_C3",
+      "name": "summary_full_calibration_deliberative",
+      "description": "Summary rubric, distributional + debiasing calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{SUMMARY_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A3_B1_C1",
+      "name": "full_rubric_baseline",
+      "description": "Full rubric, no calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}"
+    },
+    {
+      "id": "A3_B1_C2",
+      "name": "full_rubric_analytic",
+      "description": "Full rubric, no calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A3_B1_C3",
+      "name": "full_rubric_deliberative",
+      "description": "Full rubric, no calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A3_B2_C1",
+      "name": "full_rubric_distributional_baseline",
+      "description": "Full rubric, distributional calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{DISTRIBUTION}}"
+    },
+    {
+      "id": "A3_B2_C2",
+      "name": "full_rubric_distributional_analytic",
+      "description": "Full rubric, distributional calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A3_B2_C3",
+      "name": "full_rubric_distributional_deliberative",
+      "description": "Full rubric, distributional calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DELIBERATIVE}}"
+    },
+    {
+      "id": "A3_B3_C1",
+      "name": "full_rubric_full_calibration_baseline",
+      "description": "Full rubric, distributional + debiasing calibration, direct scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}"
+    },
+    {
+      "id": "A3_B3_C2",
+      "name": "full_rubric_full_calibration_analytic",
+      "description": "Full rubric, distributional + debiasing calibration, analytic scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}\n\n{{ANALYTIC}}"
+    },
+    {
+      "id": "A3_B3_C3",
+      "name": "full_rubric_full_calibration_deliberative",
+      "description": "Full rubric, distributional + debiasing calibration, deliberative scoring",
+      "template": "{{BASE}}\n\n{{TASK}}\n\n{{FULL_RUBRIC}}\n\n{{DISTRIBUTION}}\n\n{{DEBIASING}}\n\n{{DELIBERATIVE}}"
+    }
+  ]
+}
