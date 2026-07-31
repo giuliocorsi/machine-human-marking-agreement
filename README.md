@@ -98,6 +98,11 @@ scripts/
 analysis/                   # one package per paper analysis
 ```
 
+## Data sources
+The analysis scripts read the private SQLite database which holds essay text and cannot be shared. The de-identified numbers used in the paper are published separately at 10.5281/zenodo.21676733. Reproducing the published figures from those files requires substituting your own loader for get_connection() / load_complete_case_data(). The metric functions in src/utils/analysis_utils.py take plain arrays and need no changes.
+
+
+
 ## Contributions
 
 The code in this repository was written by G. Corsi, with the exception of [analysis/linguistic_features/](analysis/linguistic_features/), written by M. Abo-Tabik.
